@@ -1,0 +1,14 @@
+import React from 'react'
+
+
+function contacto() {
+  return (
+    <>
+    <div>
+      <h1>This is contact</h1>
+    </div>
+    </>
+  )
+} 
+
+export default contacto;
