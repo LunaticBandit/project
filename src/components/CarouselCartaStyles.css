@@ -1,0 +1,53 @@
+.carta-ventana {
+    width: 90%;
+    height: fit-content;
+    position: absolute;
+    top: 25%;
+    left: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border: 10px solid white;
+    background: linear-gradient(to bottom right,#1e3c72 0%, #1e3c72 1%, #2a5298 100%, white);
+
+}
+
+.ventana-izq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ventana-izq img {
+    margin: 1rem;
+    border-radius: 50%; 
+    border: 10px solid white;
+    width: 400px; 
+    height: fit-content;
+}
+
+.ventana-der {
+    margin: 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .ventana-der .titulo {
+    margin-bottom: 20px; 
+    font-size: 50px;
+  }
+  
+  .ventana-der .texto {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .ventana-der .close-button {
+    margin-top: 20px;
+  }
+ 
+
